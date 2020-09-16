@@ -20,7 +20,7 @@ void main()
         scanf("%d",&st[i].marks);    
     }    
     printf("\nStudent Information List:");    
-    for(int i=0;i<5;i++)
+    for(int i=0;i<10;i++)
     {   
         int x = i;
         printf("\nID: %d, Age: %d , Marks: %d \n", x , st[i].age,st[i].marks); 
