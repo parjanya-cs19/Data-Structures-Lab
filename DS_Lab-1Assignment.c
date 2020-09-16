@@ -11,7 +11,7 @@ struct student
 void main()
 {
     struct student st[10];    
-    printf("Enter Records of 5 students");    
+    printf("Enter Records of 10 students");    
     for(int i=0;i<10;i++)
     {    
         printf("\nEnter Age:");    
