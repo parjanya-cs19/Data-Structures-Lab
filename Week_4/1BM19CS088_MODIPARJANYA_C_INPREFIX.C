@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 20
-void infixtoprefix (char infix[20], char prefix[20]);
+void intoprefix (char infix[20], char prefix[20]);
 void reverse (char array[30]);
 char pop ();
 void push (char symbol);
@@ -15,12 +15,12 @@ main ()
   char infix[20], prefix[20], temp;
   printf ("Enter infix operation: ");
   gets(infix);
-  infixtoprefix (infix, prefix);
+  intoprefix (infix, prefix);
   reverse (prefix);
   puts ((prefix));
 }
 
-void infixtoprefix (char infix[20], char prefix[20])
+void intoprefix (char infix[20], char prefix[20])
 {
   int i, j = 0;
   char symbol;
